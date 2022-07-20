@@ -1,0 +1,22 @@
+
+=============== MDBOOTSTRAP =====
+https://mdbootstrap.com/docs/standard/components/cards/
+
+=============== Datatable =====
+https://datatables.net/
+
+
+storage file upload files laravel 
+https://www.larashout.com/a-complete-guide-to-laravel-storage
+
+remove  file laravel 
+https://techsolutionstuff.com/post/how-to-delete-file-from-public-storage-folder-in-laravel
+
+
+Failed to load resource: the server responded with a status of 419
+insert this in <head><meta name="csrf-token" content="{{ csrf_token() }}"></head>
+https://www.codegrepper.com/code-examples/whatever/Failed+to+load+resource%3A+the+server+responded+with+a+status+of+419+%28unknown+status%29+laravel+8
+
+
+Enviar email laravel 8 
+https://www.youtube.com/watch?v=kWEvrHVg8kI

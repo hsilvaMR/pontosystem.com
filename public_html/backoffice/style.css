@@ -1,0 +1,159 @@
+body {
+    overflow: scroll;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+
+.dashboard-content .modulo-body {
+    background-color: #1266f1;
+    color: white;
+    height: 120px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.dashboard-content .modulo-footer {
+    background-color: #b23cfd;
+    color: white;
+    height: 50px;
+    padding-left: 12px;
+    padding-top: 12px;
+    cursor: pointer;
+}
+
+.modulo {
+    width: 80%;
+    height: 70%;
+}
+
+.td-action {
+    color: #1266f1 !important;
+}
+
+.td-action span {
+    cursor: pointer;
+}
+
+.modulo-icone {
+    float: right;
+    margin-right: 4px;
+    margin-bottom: 12px;
+}
+
+.box-gest-user,
+.box-add-user,
+.box-registo-hora {
+    background-color: #f3f3f3;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.btn-add {
+    background-color: #1266f1;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 12px;
+    width: 50%;
+    height: 44px;
+    color: white;
+    margin-top: 9px;
+    cursor: pointer;
+    border: thin solid #1266f1;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-add:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #1266f1;
+}
+
+.infomsg label {
+    color: white !important;
+}
+
+.infomsg {
+    background-color: red;
+    padding-top: 3px;
+}
+
+.cinza a {
+    color: gray !important;
+    cursor: no-drop;
+}
+
+#table_id_filter label {
+    margin-bottom: 8px !important;
+}
+
+.bt-azul {
+    background-color: #1266f1;
+}
+
+#user-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.box-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border-color: #1266f1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lb-40 {
+    width: 40px;
+    height: 40px;
+    color: white;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 0;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+#modal-consulta .modal-title {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .headerBackoffice .navbar-nav .nav-item {
+        margin-top: 8px;
+        width: 50%;
+        align-self: start;
+    }
+    .headerBackoffice .navbar-nav .nav-item .nav-link {
+        margin-left: 6px;
+    }
+    .dashboard-content .modulo-footer {
+        height: 100px;
+    }
+    .table-modulo {
+        padding-left: 12px;
+    }
+    /* footer {
+        position: fixed;
+        margin-top: 10%;
+    } */
+}

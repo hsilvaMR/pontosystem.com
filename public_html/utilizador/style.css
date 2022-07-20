@@ -1,0 +1,89 @@
+body {
+    /* background: url("/utilizador/img/bg.jpg") no-repeat center; */
+    background-color: aliceblue;
+    background-size: cover;
+    /* opacity:0.7;*/
+    /* background: rgba(78, 46, 192, 0.25);
+    mix-blend-mode: multiply; */
+}
+
+.boxHome {
+    background-color: #d1a9aa;
+    margin-top: 15%;
+    height: 35%;
+    width: 66%;
+    color: white;
+}
+
+.boxHome .title {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* .homePage {
+    padding-bottom: 12%;
+} */
+
+.bg-image {
+    background-image: url('/utilizador/img/flyer.png');
+    height: 400px;
+}
+
+.box-open-point {
+    width: 45%;
+    margin-top: 12%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 12px;
+    background-color: rgb(211, 220, 226);
+}
+
+#modal-open-point .modal-title,
+#modal-close-point .modal-title {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+
+.modulo-login {
+    margin-top: 9%;
+}
+
+.login-logo {
+    width: auto;
+    height: 50px;
+    margin: auto;
+    display: block;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.infomsg label {
+    color: white !important;
+}
+
+.infomsg {
+    background-color: red;
+    padding-top: 3px;
+}
+
+#recoverPassword,
+#moduloLogin {
+    cursor: pointer;
+    color: #1266f1;
+}
+
+
+/* #modal-open-point .modal-header,
+#modal-close-point .modal-header,
+#modal-msg .modal-header {
+    text-align: center;
+} */
