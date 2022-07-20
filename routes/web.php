@@ -153,7 +153,6 @@ Route::group(['prefix' => 'area-cliente', 'middleware' => ('userArea')],  functi
 
     Route::get('/dashboard', [UserArea::class, 'index'])->name('pageDashUser');
     Route::post('/consulta-hora', [UserArea::class, 'consulta'])->name('pageCsCL');
-    //  minha conta 
     Route::get('/minha-conta', [UserArea::class, 'myProfile'])->name('pageCL');
     Route::get('/minha-conta/editar/{id}', [UserArea::class, 'editProfile'])->name('pageCLedit');
     Route::post('minha-conta/edit', [UserArea::class, 'editPost'])->name('editCL');
